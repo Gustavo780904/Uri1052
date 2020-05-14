@@ -7,6 +7,13 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
+		int mes;
+		char January, February, March, April, May, June, July; 
+		char August, September, October, November, December;
+		
+		//leitura dos dados
+		
+		mes = sc.nextInt();
 		
 		
 		sc.close();
